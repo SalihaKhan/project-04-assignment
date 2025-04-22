@@ -1,0 +1,24 @@
+def main():
+    print("Age Related Riddle!!")
+
+    anton_age:int = 21
+    beth_age:int = 6 + anton_age
+    chen_age:int = 20 + beth_age
+    drew_age:int = chen_age + anton_age
+    ethan_age:int = chen_age
+
+    print("Anton is " + str(anton_age))
+    print("Beth is " + str(beth_age))
+    print("Chen is " + str(chen_age))
+    print("Drew is " + str(drew_age))
+    print("Ethan is " + str(ethan_age))
+    
+
+
+
+
+
+
+
+if __name__ == '__main__':
+    main()
